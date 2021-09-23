@@ -19,6 +19,17 @@
 }
 
 
+- (IBAction)checkBackground:(id)sender {
+    
+    if(self.segControl.selectedSegmentIndex == 0){
+        self.view.backgroundColor = [UIColor blueColor];
+    }
+    if(self.segControl.selectedSegmentIndex){
+        self.view.backgroundColor = [UIColor redColor];
+    }
+    
+}
+
 - (IBAction)tiklaButton:(id)sender {
     
     counter += 1;

@@ -13,8 +13,11 @@
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segControl;
 
 - (IBAction)tiklaButton:(id)sender;
+- (IBAction)checkBackground:(id)sender;
+
 
 
 @end
