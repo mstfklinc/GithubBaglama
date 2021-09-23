@@ -32,12 +32,24 @@
                                     <action selector="tiklaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lLm-PU-Oh7"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yeN-9Y-815">
+                                <rect key="frame" x="60" y="535" width="303" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="BAckground 1"/>
+                                    <segment title="Background 2"/>
+                                </segments>
+                                <connections>
+                                    <action selector="checkBackground:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ese-Xi-9Vc"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="JCS-oc-D5Q" id="haP-Le-OeB"/>
+                        <outlet property="segControl" destination="yeN-9Y-815" id="Oac-zF-rcD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
