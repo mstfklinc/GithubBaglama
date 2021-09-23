@@ -7,7 +7,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    int counter;
+}
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)tiklaButton:(id)sender;
 
 
 @end

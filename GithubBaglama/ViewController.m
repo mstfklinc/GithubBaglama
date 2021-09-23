@@ -19,4 +19,10 @@
 }
 
 
+- (IBAction)tiklaButton:(id)sender {
+    
+    counter += 1;
+    self.label.text = [NSString stringWithFormat:@"%i defa tıklandı", counter];
+    
+}
 @end
