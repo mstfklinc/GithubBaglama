@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC8B87126FC75DF00F4590F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B87026FC75DF00F4590F /* AppDelegate.m */; };
+		FAC8B87426FC75DF00F4590F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B87326FC75DF00F4590F /* SceneDelegate.m */; };
+		FAC8B87726FC75DF00F4590F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B87626FC75DF00F4590F /* ViewController.m */; };
+		FAC8B87A26FC75DF00F4590F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B87826FC75DF00F4590F /* Main.storyboard */; };
+		FAC8B87D26FC75DF00F4590F /* GithubBaglama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B87B26FC75DF00F4590F /* GithubBaglama.xcdatamodeld */; };
+		FAC8B87F26FC75E200F4590F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B87E26FC75E200F4590F /* Assets.xcassets */; };
+		FAC8B88226FC75E200F4590F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC8B88026FC75E200F4590F /* LaunchScreen.storyboard */; };
+		FAC8B88526FC75E200F4590F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B88426FC75E200F4590F /* main.m */; };
+		FAC8B88F26FC75E300F4590F /* GithubBaglamaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B88E26FC75E300F4590F /* GithubBaglamaTests.m */; };
+		FAC8B89926FC75E300F4590F /* GithubBaglamaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B89826FC75E300F4590F /* GithubBaglamaUITests.m */; };
+		FAC8B89B26FC75E300F4590F /* GithubBaglamaUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC8B89A26FC75E300F4590F /* GithubBaglamaUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC8B88B26FC75E300F4590F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC8B86426FC75DF00F4590F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC8B86B26FC75DF00F4590F;
+			remoteInfo = GithubBaglama;
+		};
+		FAC8B89526FC75E300F4590F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC8B86426FC75DF00F4590F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC8B86B26FC75DF00F4590F;
+			remoteInfo = GithubBaglama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC8B86C26FC75DF00F4590F /* GithubBaglama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubBaglama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC8B86F26FC75DF00F4590F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC8B87026FC75DF00F4590F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC8B87226FC75DF00F4590F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FAC8B87326FC75DF00F4590F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FAC8B87526FC75DF00F4590F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAC8B87626FC75DF00F4590F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAC8B87926FC75DF00F4590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC8B87C26FC75DF00F4590F /* GithubBaglama.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubBaglama.xcdatamodel; sourceTree = "<group>"; };
+		FAC8B87E26FC75E200F4590F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC8B88126FC75E200F4590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC8B88326FC75E200F4590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC8B88426FC75E200F4590F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC8B88A26FC75E300F4590F /* GithubBaglamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubBaglamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC8B88E26FC75E300F4590F /* GithubBaglamaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubBaglamaTests.m; sourceTree = "<group>"; };
+		FAC8B89426FC75E300F4590F /* GithubBaglamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubBaglamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC8B89826FC75E300F4590F /* GithubBaglamaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubBaglamaUITests.m; sourceTree = "<group>"; };
+		FAC8B89A26FC75E300F4590F /* GithubBaglamaUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubBaglamaUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC8B86926FC75DF00F4590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC8B88726FC75E300F4590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC8B89126FC75E300F4590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC8B86326FC75DF00F4590F = {
+			isa = PBXGroup;
+			children = (
+				FAC8B86E26FC75DF00F4590F /* GithubBaglama */,
+				FAC8B88D26FC75E300F4590F /* GithubBaglamaTests */,
+				FAC8B89726FC75E300F4590F /* GithubBaglamaUITests */,
+				FAC8B86D26FC75DF00F4590F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC8B86D26FC75DF00F4590F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8B86C26FC75DF00F4590F /* GithubBaglama.app */,
+				FAC8B88A26FC75E300F4590F /* GithubBaglamaTests.xctest */,
+				FAC8B89426FC75E300F4590F /* GithubBaglamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC8B86E26FC75DF00F4590F /* GithubBaglama */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8B86F26FC75DF00F4590F /* AppDelegate.h */,
+				FAC8B87026FC75DF00F4590F /* AppDelegate.m */,
+				FAC8B87226FC75DF00F4590F /* SceneDelegate.h */,
+				FAC8B87326FC75DF00F4590F /* SceneDelegate.m */,
+				FAC8B87526FC75DF00F4590F /* ViewController.h */,
+				FAC8B87626FC75DF00F4590F /* ViewController.m */,
+				FAC8B87826FC75DF00F4590F /* Main.storyboard */,
+				FAC8B87E26FC75E200F4590F /* Assets.xcassets */,
+				FAC8B88026FC75E200F4590F /* LaunchScreen.storyboard */,
+				FAC8B88326FC75E200F4590F /* Info.plist */,
+				FAC8B88426FC75E200F4590F /* main.m */,
+				FAC8B87B26FC75DF00F4590F /* GithubBaglama.xcdatamodeld */,
+			);
+			path = GithubBaglama;
+			sourceTree = "<group>";
+		};
+		FAC8B88D26FC75E300F4590F /* GithubBaglamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8B88E26FC75E300F4590F /* GithubBaglamaTests.m */,
+			);
+			path = GithubBaglamaTests;
+			sourceTree = "<group>";
+		};
+		FAC8B89726FC75E300F4590F /* GithubBaglamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC8B89826FC75E300F4590F /* GithubBaglamaUITests.m */,
+				FAC8B89A26FC75E300F4590F /* GithubBaglamaUITestsLaunchTests.m */,
+			);
+			path = GithubBaglamaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC8B86B26FC75DF00F4590F /* GithubBaglama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC8B89E26FC75E300F4590F /* Build configuration list for PBXNativeTarget "GithubBaglama" */;
+			buildPhases = (
+				FAC8B86826FC75DF00F4590F /* Sources */,
+				FAC8B86926FC75DF00F4590F /* Frameworks */,
+				FAC8B86A26FC75DF00F4590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GithubBaglama;
+			productName = GithubBaglama;
+			productReference = FAC8B86C26FC75DF00F4590F /* GithubBaglama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC8B88926FC75E300F4590F /* GithubBaglamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC8B8A126FC75E300F4590F /* Build configuration list for PBXNativeTarget "GithubBaglamaTests" */;
+			buildPhases = (
+				FAC8B88626FC75E300F4590F /* Sources */,
+				FAC8B88726FC75E300F4590F /* Frameworks */,
+				FAC8B88826FC75E300F4590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC8B88C26FC75E300F4590F /* PBXTargetDependency */,
+			);
+			name = GithubBaglamaTests;
+			productName = GithubBaglamaTests;
+			productReference = FAC8B88A26FC75E300F4590F /* GithubBaglamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC8B89326FC75E300F4590F /* GithubBaglamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC8B8A426FC75E300F4590F /* Build configuration list for PBXNativeTarget "GithubBaglamaUITests" */;
+			buildPhases = (
+				FAC8B89026FC75E300F4590F /* Sources */,
+				FAC8B89126FC75E300F4590F /* Frameworks */,
+				FAC8B89226FC75E300F4590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC8B89626FC75E300F4590F /* PBXTargetDependency */,
+			);
+			name = GithubBaglamaUITests;
+			productName = GithubBaglamaUITests;
+			productReference = FAC8B89426FC75E300F4590F /* GithubBaglamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC8B86426FC75DF00F4590F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FAC8B86B26FC75DF00F4590F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FAC8B88926FC75E300F4590F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FAC8B86B26FC75DF00F4590F;
+					};
+					FAC8B89326FC75E300F4590F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FAC8B86B26FC75DF00F4590F;
+					};
+				};
+			};
+			buildConfigurationList = FAC8B86726FC75DF00F4590F /* Build configuration list for PBXProject "GithubBaglama" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC8B86326FC75DF00F4590F;
+			productRefGroup = FAC8B86D26FC75DF00F4590F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC8B86B26FC75DF00F4590F /* GithubBaglama */,
+				FAC8B88926FC75E300F4590F /* GithubBaglamaTests */,
+				FAC8B89326FC75E300F4590F /* GithubBaglamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC8B86A26FC75DF00F4590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8B88226FC75E200F4590F /* LaunchScreen.storyboard in Resources */,
+				FAC8B87F26FC75E200F4590F /* Assets.xcassets in Resources */,
+				FAC8B87A26FC75DF00F4590F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC8B88826FC75E300F4590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC8B89226FC75E300F4590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC8B86826FC75DF00F4590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8B88526FC75E200F4590F /* main.m in Sources */,
+				FAC8B87726FC75DF00F4590F /* ViewController.m in Sources */,
+				FAC8B87126FC75DF00F4590F /* AppDelegate.m in Sources */,
+				FAC8B87D26FC75DF00F4590F /* GithubBaglama.xcdatamodeld in Sources */,
+				FAC8B87426FC75DF00F4590F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC8B88626FC75E300F4590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8B88F26FC75E300F4590F /* GithubBaglamaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC8B89026FC75E300F4590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8B89926FC75E300F4590F /* GithubBaglamaUITests.m in Sources */,
+				FAC8B89B26FC75E300F4590F /* GithubBaglamaUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC8B88C26FC75E300F4590F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC8B86B26FC75DF00F4590F /* GithubBaglama */;
+			targetProxy = FAC8B88B26FC75E300F4590F /* PBXContainerItemProxy */;
+		};
+		FAC8B89626FC75E300F4590F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC8B86B26FC75DF00F4590F /* GithubBaglama */;
+			targetProxy = FAC8B89526FC75E300F4590F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC8B87826FC75DF00F4590F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC8B87926FC75DF00F4590F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC8B88026FC75E200F4590F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC8B88126FC75E200F4590F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC8B89C26FC75E300F4590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAC8B89D26FC75E300F4590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC8B89F26FC75E300F4590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GithubBaglama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.GithubBaglama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC8B8A026FC75E300F4590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GithubBaglama/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.GithubBaglama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC8B8A226FC75E300F4590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.GithubBaglamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubBaglama.app/GithubBaglama";
+			};
+			name = Debug;
+		};
+		FAC8B8A326FC75E300F4590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.GithubBaglamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubBaglama.app/GithubBaglama";
+			};
+			name = Release;
+		};
+		FAC8B8A526FC75E300F4590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.GithubBaglamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GithubBaglama;
+			};
+			name = Debug;
+		};
+		FAC8B8A626FC75E300F4590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.GithubBaglamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GithubBaglama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC8B86726FC75DF00F4590F /* Build configuration list for PBXProject "GithubBaglama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC8B89C26FC75E300F4590F /* Debug */,
+				FAC8B89D26FC75E300F4590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC8B89E26FC75E300F4590F /* Build configuration list for PBXNativeTarget "GithubBaglama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC8B89F26FC75E300F4590F /* Debug */,
+				FAC8B8A026FC75E300F4590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC8B8A126FC75E300F4590F /* Build configuration list for PBXNativeTarget "GithubBaglamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC8B8A226FC75E300F4590F /* Debug */,
+				FAC8B8A326FC75E300F4590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC8B8A426FC75E300F4590F /* Build configuration list for PBXNativeTarget "GithubBaglamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC8B8A526FC75E300F4590F /* Debug */,
+				FAC8B8A626FC75E300F4590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAC8B87B26FC75DF00F4590F /* GithubBaglama.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAC8B87C26FC75DF00F4590F /* GithubBaglama.xcdatamodel */,
+			);
+			currentVersion = FAC8B87C26FC75DF00F4590F /* GithubBaglama.xcdatamodel */;
+			path = GithubBaglama.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAC8B86426FC75DF00F4590F /* Project object */;
+}
